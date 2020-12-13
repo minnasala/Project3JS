@@ -60,7 +60,7 @@ $("#avp").click(function() {
         console.log(data);
         trains(data); // funktio, jolla luon taulukon sivulle
     });
-});P
+});
 
 $("#epo").click(function() {
     $.getJSON("https://rata.digitraffic.fi/api/v1/live-trains/station/EPO?minutes_before_departure=0&minutes_after_departure=0&minutes_before_arrival=30&minutes_after_arrival=0", function(data) {
